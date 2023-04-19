@@ -1,0 +1,96 @@
+:root {
+    --brand-color: #6EE7B7;
+    --brand-color-light: #FB7185;
+
+    --status-success: #9333EA;
+    --status-error: #A855F7;
+
+    --gray-900: #111827;
+    --gray-800: #1F2937;
+    --gray-700: #374151;
+    --gray-600: #4B5563;
+    --gray-500: #6B7280;
+    --gray-400: #9CA3AF;
+    --gray-300: #D1D5DB;
+    --gray-200: #E5E7EB;
+    --gray-100: #F3F4F6;
+    --gray-50: #F9FAFB;
+
+    --button-label-size: 18px;
+    --input-text-size: 16px;
+    --input-label-size: 14px;
+    --heading-lg-size: 24px;
+    --card-number-size: 16px;
+
+    --input-label-card-number-line-height: 16px;
+    --line-height: 24px;
+
+    --font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-900);  
+    font-family: var(--font-family); 
+}
+
+.card {
+    width: 46rem;
+    height: 26.25rem;
+
+    display: flex;
+
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    background-color: var(--gray-800);
+    border: 1px solid var(--gray-700);
+
+    border-radius: 8px;
+
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.form {
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-field {
+
+}
+
+.text-field label {
+
+}
+
+.text-field input {
+    background-color: var(--gray-900);
+    color: var(--gray-100);
+
+    padding: 0.75rem;
+
+    border: 1px solid var(--gray-700);
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+}
+
+.cartao-ya {
+    width: 280px;
+    height: 168px;
+    background-color: red;
+}
+
